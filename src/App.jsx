@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchBooks } from './redux/bookSlice';
 import BookList from './Components/BookList';
-import SearchBar from './components/SearchBar';
-
+import SearchBar from './Components/SearchBar';
 function App() {
   const dispatch = useDispatch();
   const [query, setQuery] = useState('');
